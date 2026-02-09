@@ -16,7 +16,7 @@ function App() {
     
       <Routes>
         <Route element = {<MainLayout/>}>
-        <Route path='/' element = {<HomePage  />}/>
+        <Route path='/' element = {<HomePage isHome = {true}  />}/>
         <Route path='/products' element = {<Products/>}/>
         <Route path='/product/:id' element = {<ProductDetails/>}/>
         <Route path='/register' element = {<Register/>}/>
